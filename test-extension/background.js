@@ -38,6 +38,4 @@ function startRecording() {
         const timeslice = 5 * 1000;
         recorder.start(timeslice);
     });
-
-    console.log('Recording is all set up.');
 }
