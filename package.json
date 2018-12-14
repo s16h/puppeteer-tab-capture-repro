@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-tab-capture-repro",
+  "version": "1.0.0",
+  "description": "This is a minimal repository to help with debugging [this](https://github.com/GoogleChrome/puppeteer/issues/3651) issue.",
+  "main": "test.js",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s16h/puppeteer-tab-capture-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s16h/puppeteer-tab-capture-repro/issues"
+  },
+  "homepage": "https://github.com/s16h/puppeteer-tab-capture-repro#readme"
+}
