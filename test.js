@@ -7,7 +7,10 @@ const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch({
         args: [
             `--whitelisted-extension-id=${extensionId}`,
-            '--use-fake-ui-for-media-stream',
+            // '--use-fake-ui-for-media-stream',
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
             `--disable-extensions-except=${pathToExtension}`,
             `--load-extension=${pathToExtension}`,
         ],
