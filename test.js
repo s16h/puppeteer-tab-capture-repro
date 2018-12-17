@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 (async () => {
     const pathToExtension = require('path').join(__dirname, 'test-extension');
-    const extensionId = 'ngjfomcnndimpojnjmahjjglkpogpbpl';
+    const extensionId = 'ggahojjidgommldmocemnbkdhagpackj';
 
     const browser = await puppeteer.launch({
         args: [
