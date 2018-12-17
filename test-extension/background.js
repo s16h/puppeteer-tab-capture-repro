@@ -22,8 +22,9 @@ function startRecording() {
             return;
         }
 
+        let recorder;
         try {
-            const recorder = new MediaRecorder(stream);
+            recorder = new MediaRecorder(stream);
         } catch (err) {
             console.log(err.message);
             return;
